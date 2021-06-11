@@ -1,0 +1,15 @@
+<form [formGroup]="carAddForm" (submit)="save()">
+    <div class="form-control">
+      <label for="model">Car Producer:</label>
+      <input type="text" name="model" id="model" formControlName="model">
+    </div>
+  <div class="form-control">
+    <label for="price">Car Price:</label>
+    <input type="number" name="price" id="price" formControlName="price">
+  </div>
+  <div class="form-control">
+    <label for="year">Car Year:</label>
+    <input type="number" name="year" id="year" formControlName="year">
+  </div>
+  <button>Add to List</button>
+</form>

@@ -1,0 +1,18 @@
+.cars-wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.cars-list {
+  list-style: none;
+}
+
+.car {
+  margin-bottom: 5px;
+}
+
+.car span {
+  font-weight: 700;
+  text-transform: uppercase;
+}

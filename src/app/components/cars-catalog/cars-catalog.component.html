@@ -1,0 +1,10 @@
+<div class="cars-wrapper">
+  <div class="cars">
+    <h2>Car counter : {{cars?.length}}</h2>
+    <ul class="cars-list">
+      <li class="car" *ngFor="let car of cars">{{car.id}}) <span>{{car.model}}</span> ({{car.price}} $) {{car.year}}
+      </li>
+    </ul>
+  </div>
+  <app-add-car-from></app-add-car-from>
+</div>
